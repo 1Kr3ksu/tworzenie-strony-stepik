@@ -1,12 +1,15 @@
-/* Ogólne ustawienia */
+
+/*Import czcionki Poppins z google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Ogólne ustawienia */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -139,7 +142,7 @@ form textarea {
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #0028db;
     color: white;
     padding: 12px 20px;
     border-radius: 5px;
@@ -149,7 +152,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #107fc0;
 }
 
 /* Stopka */
